@@ -53,7 +53,6 @@ alias gemi='sudo gem install --no-rdoc --no-ri -y'
 alias ls='ls -F'
 alias ll='ls -al'
 
-alias ack="ack-grep"
 alias history='fc -l 1'
 alias psg="ps auxw | grep $1"
 
