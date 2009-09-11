@@ -4,7 +4,7 @@ alias .='pwd'
 alias ...='cd ../..'
 alias _='sudo'
 
-alias wf='cd /home/alex/workfeed'
+alias wf='cd /Users/aannese/workfeed'
 
 # ruby / rails
 alias sc='ruby script/console'
@@ -14,15 +14,14 @@ alias db="psql -Upostgres wf_development"
 alias ptl="tail -f log/development.log"
 alias apacherestart='sudo /usr/sbin/apachectl restart'
 alias ngr="sudo killall nginx; sudo /opt/nginx/sbin/nginx"
-alias ss='script/server'
+alias ss='unicorn_rails'
 alias sc='script/console'
 alias sgm='script/generate model'
 alias sgc='script/generate controller'
 alias sgs='script/generate scaffold'
+alias vi="vim"
 
-alias ngstart='sudo /opt/nginx/sbin/nginx'
 alias ngkill='sudo killall nginx'
-alias ngrestart='ngkill;ngstart'
 
 # git
 alias g='git'
